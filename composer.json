@@ -1,0 +1,38 @@
+{
+    "name": "druunkman/apidocmaker",
+    "description": "api doc generator",
+    "keywords": ["apidoc" ],
+    "homepage": "https://github.com/druunkman/apidocmaker",
+    "authors": [
+        {
+            "name": "druunkman",
+            "homepage": "https://xcdwgqwegqwegqewdewfefwefwefwefwegq4gq3434g3q.com"
+        }
+    ],
+    "license" : "MIT",
+    "require": {
+        "illuminate/support": "^5.6",
+        },
+    "require-dev": {
+      },
+    "autoload": {
+        "psr-0": {
+            "Druunkman\\Apidockmaker": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "suggest": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Druunkman\\Apidockmaker\\ApiDocumentServiceProvider"
+             ]
+        }
+    }
+}
